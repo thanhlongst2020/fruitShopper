@@ -1,0 +1,170 @@
+{
+    "status": "success",
+    "items": [
+        {
+            "id": 1,
+            "title": "Apple",
+            "price": 12,
+            "image": "product/img/apple/product-1.png",
+            "image_details": "product/img/apple/product.png",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#01e37f",
+            "description": "<li>Apples are nutricious</li><li>Apples may be good for weight loss</li><li>Apples may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>"
+
+        },
+        {
+            "id": 2,
+            "title": "Banana",
+            "price": 4,
+            "image": "product/img/banana/product-2.png",
+            "image_details": "product/img/banana/product.png",
+            "color1":  "radial-gradient(#eaebaa, #d5e001)",
+            "color2": "#faf330",
+            "description": "<li>Bananas are a rich source of carbs</li><li>Bananas are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>"
+
+        },
+        {
+            "id": 3,
+            "title": "Strawberries",
+            "price": 16,
+            "image": "product/img/straw/product-3.png",
+            "image_details": "product/img/straw/product.png",
+            "color1": "radial-gradient(#f0b9b4, #f5623d)",
+            "color2": "#f12e1c",
+            "description": "<li>The tiny strawberry is packed with vitamin C, fiber, antioxidants, and more</li><li>These potent little packages protect your heart</li><li>Lower your blood pressure, and guard against cancer</li>"
+        },
+        {
+            "id": 4,
+            "title": "Watermelon",
+            "price": 5,
+            "image": "product/img/watermelon/product-4.png",
+            "image_details": "product/img/watermelon/product.png",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#1ba42f",
+            "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>"
+        },
+        {
+            "id": 5,
+            "title": "Orange",
+            "price": 7,
+            "image": "product/img/orange/product-5.png",
+            "image_details": "product/img/orange/product.png",
+            "color1": "radial-gradient(#ebd4aa, #e09201)",
+            "color2": "#faf330",
+            "description": "<li>Oranges are nutricious</li><li>Oranges may be good for weight loss</li><li>Oranges may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>"
+
+        },
+        {
+            "id": 6,
+            "title": "Grape",
+            "price": 20,
+            "image": "product/img/grape/product-6.png",
+            "image_details": "product/img/grape/product.png",
+            "color1": "radial-gradient(#d383f8, #b81df0)",
+            "color2": "#9704b8",
+            "description": "<li>Grape are nutricious</li><li>Grape may be good for weight loss</li><li>Grape may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>"
+
+        },
+        {
+            "id": 7,
+            "title": "Durian",
+            "price": 12,
+            "image": "product/img/durian/product-7.png",
+            "image_details": "product/img/durian/product.png",
+            "color1":  "radial-gradient(#eaebaa, #d5e001)",
+            "color2": "#faf330",
+            "description": "<li>Durian are a rich source of carbs</li><li>Durian are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>"
+        },
+        {
+            "id": 8,
+            "title": "Blue berries",
+            "price": 23,
+            "image": "product/img/blue/product-8.png",
+            "image_details": "product/img/blue/product.png",
+            "color1": "radial-gradient(#5e8ce9, #0b55e9)",
+            "color2": "#5572cc",
+            "description": "<li>Blue berries are nutricious</li><li>Blue berries may be good for weight loss</li><li>Blue berries may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>"
+        },
+        {
+            "id": 9,
+            "title": "Melon",
+            "price": 9,
+            "image": "product/img/melon/product-9.png",
+            "image_details": "product/img/melon/product.png",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#086021",
+            "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>"
+        },
+        {
+            "id": 10,
+            "title": "Dragonfruit",
+            "price": 3,
+            "image": "product/img/dragonfruit/product-10.png",
+            "image_details": "product/img/dragonfruit/product.png",
+            "color1": "radial-gradient(#f0b9b4, #f5623d)",
+            "color2": "#f12e1c",
+            "description": "<li>Dragonfruit are a rich source of carbs</li><li>Dragonfruit are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>"
+        },
+        {
+            "id": 11,
+            "title": "Avocado",
+            "price": 6,
+            "image": "product/img/avocado/product-11.png",
+            "image_details": "product/img/avocado/product.png",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#086021",
+            "description": "<li>Avocado are nutricious</li><li>Avocado may be good for weight loss</li><li>Avocado may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>"
+        },
+        {
+            "id": 12,
+            "title": "Peach",
+            "price": 10,
+            "image": "product/img/peach/product-12.png",
+            "image_details": "product/img/peach/product.png",
+            "color1": "radial-gradient(#f16ebb, #e90bd3)",
+            "color2": "#e60cdb",
+            "description": "<li>Peach are a rich source of carbs</li><li>Peach are also a good source of other types of fiber</li><li> Aiding your gut and promoting healthy blood sugar levels.</li>"
+        },
+        {
+            "id": 13,
+            "title": "Guava",
+            "price": 150,
+            "image": "product/img/guava/product-13.png",
+            "image_details": "product/img/guava/product.png",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#01e37f",
+            "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>"
+        },
+        {
+            "id": 14,
+            "title": "Kiwi",
+            "price": 17,
+            "image": "product/img/kiwi/product-14.png",
+            "image_details": "product/img/kiwi/product.png",
+            "color1": "radial-gradient(#ddebaa, #96e001)",
+            "color2": "#086021",
+            "description": "<li>Kiwi are nutricious</li><li>Kiwi may be good for weight loss</li><li>Kiwi may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>"
+        },
+        {
+            "id": 15,
+            "title": "Grapefruit",
+            "price": 11,
+            "image": "product/img/grapefruits/product-15.png",
+            "image_details": "product/img/grapefruits/product.png",
+            "color1": "radial-gradient(#5e8ce9, #0b55e9)",
+            "color2": "#5572cc",
+            "description": "<li> is a sweet and refreshing low calorie summer snack</li><li> useful for staying hydrated in the summer</li><li> has high water content and also provides some fiber</li>"
+        }
+        ,
+        {
+            "id": 16,
+            "title": "Coconuts",
+            "price": 6,
+            "image": "product/img/coconuts/product-16.png",
+            "image_details": "product/img/coconuts/product.png",
+            "color1": " radial-gradient(#65382d, #3e2305ee)",
+            "color2": "#e66e0c",
+            "description": "<li>Coconuts are nutricious</li><li>Coconuts may be good for weight loss</li><li>Coconuts may be good for bone health</li><li>They're linked to a lowest risk of diabletes</li>"
+        }
+    ]
+}

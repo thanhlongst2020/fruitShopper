@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruits store</title>
+    <!----CSS link----->
+    
+    <!----Fontawesome CDN Link----->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #4f4f4f49;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #959393}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      </style>
+      </head>
+    <body>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-overlay"></div>
+        <nav>
+            <a href="#" class="logo_name">Traidung</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                  <a href="./products.html" class="dropbtn">Products</a>
+                  <div class="dropdown-content">
+                    <a href="./products.html" >All</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <a href="#" class="btn">Add To Cart</a>
+            </ul>
+        </nav>
+        <div class="content">
+            <span class="sell-logan">Eat Fresh<br> Stay Healthy...</span>
+            <p class="sell-content">Orange is not just a tasty fruit, its more. Get to know the multiple health benefits of adding oranges in your daily diet</p>
+            <a href="./products/products.html#Orange" class="btn btn2">Buy Now</a>
+        </div>
+        <div class="right">
+            <img id="fruit-main" src="./img/orange-slice.png">
+        </div>
+        <div class="bg"></div>
+        <div class="icon">
+            <a href="#"><i class="fas fa-share-alt"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="fruit-control">
+            <div class="fruit-control-item">
+                <img id="apple" src="./img/apple_control.png" alt="">
+            </div>
+            <div class="fruit-control-item">
+                <img id="orange" src="./img/orange_control.png" alt="">
+            </div>
+            <div class="fruit-control-item">
+                <img id="banana" src="./img/banana_control.png" alt="" >
+            </div>
+            <div class="fruit-control-item">
+                <img id="straw" src="./img/straw_control.png" alt="" >
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="service-info">
+        <ul>
+            <li>
+                <i class="fas fa-shipping-fast"></i>
+                <h3>FREE SHIPPING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </li>
+            <li>
+                <i class="fas fa-exchange-alt"></i>
+                <h3>EASY RETURN</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </li>
+            <li>
+                <i class="fas fa-shield-alt"></i>
+                <h3>SECURE PAYMENT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </li>
+            <li>
+                <i class="fas fa-user-headset"></i>
+                <h3>24/7 SUPPORT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </li>
+        </ul>
+        </div>
+        <div class="container-fluid">
+            <div class="slider-text">
+                <p>GRAB THE</p>
+                <h3>FEATURED PRODUCTS</h3>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+                  <div class="carousel-inner">
+          
+                    <div class="item active">
+                      <div class="item-container col-xs-12 col-sm-6 col-md-2">
+                        <div class="img-container">
+                        <a href="#"><img src="./img/apple-item.png" class="img-responsive center-block"></a>
+                        </div>
+                        <h4 class="text-center">Apple</h4>
+                        <h5 class="text-center">12$</h5>
+                        <button class="btn-add">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="item">
+                      <div class="item-container col-xs-12 col-sm-6 col-md-2">
+                        <div class="img-container">
+                        <a href="#"><img src="./img/blue-item.png" class="img-responsive center-block"></a>
+                        </div>
+                        <h4 class="text-center">Blueberries</h4>
+                        <h5 class="text-center">20$</h5>
+                        <button class="btn-add">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="item">
+                      <div class="item-container col-xs-12 col-sm-6 col-md-2">
+                        <div class="img-container">
+                        <a href="#"><img src="./img/watermelon-item.png" class="img-responsive center-block"></a>
+                        </div>
+                        <h4 class="text-center">Watermelon</h4>
+                        <h5 class="text-center">3$</h5>
+                        <button class="btn-add">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="item">
+                      <div class="item-container col-xs-12 col-sm-6 col-md-2">
+                        <div class="img-container">
+                        <a href="#"><img src="./img/banana-item.png" class="img-responsive center-block"></a>
+                        </div>
+                        <h4 class="text-center">Banana</h4>
+                        <h5 class="text-center">4$</h5>
+                        <button class="btn-add">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="item">
+                      <div class="item-container col-xs-12 col-sm-6 col-md-2">
+                        <div class="img-container">
+                        <a href="#"><img src="./img/straw-item.png" class="img-responsive center-block"></a>
+                        </div>
+                        <h4 class="text-center">Strawberries</h4>
+                        <h5 class="text-center">16$</h5>
+                        <button class="btn-add">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                    <div class="item">
+                      <div class="item-container col-xs-12 col-sm-6 col-md-2">
+                        <div class="img-container">
+                        <a href="#"><img src="./img/orange-item.png" class="img-responsive center-block"></a>
+                        </div>
+                        <h4 class="text-center">Orange</h4>
+                        <h5 class="text-center">6$</h5>
+                        <button class="btn-add">ADD TO CART</button>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="item-container col-xs-12 col-sm-6 col-md-2">
+                        <div class="img-container">
+                        <a href="#"><img src="./img/durian-item.png" class="img-responsive center-block"></a>
+                        </div>
+                        <h4 class="text-center">Durian</h4>
+                        <h5 class="text-center">11$</h5>
+                        <button class="btn-add">ADD TO CART</button>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="item-container col-xs-12 col-sm-6 col-md-2">
+                        <div class="img-container">
+                        <a href="#"><img src="./img/melon-item.png" class="img-responsive center-block"></a>
+                        </div>
+                        <h4 class="text-center">Melon</h4>
+                        <h5 class="text-center">8$</h5>
+                        <button class="btn-add">ADD TO CART</button>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="item-container col-xs-12 col-sm-6 col-md-2">
+                        <div class="img-container">
+                          <a href="#"><img src="./img/grape-item.png" class="img-responsive center-block"></a></div>
+                        <h4 class="text-center">Grape</h4>
+                        <h5 class="text-center">15$</h5>
+                        <button class="btn-add">ADD TO CART</button>
+                      </div>
+                    </div>
+          
+                  </div>
+          
+                  <div id="slider-control">
+                  <a class="left carousel-control" href="#itemslider" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                  <a class="right carousel-control" href="#itemslider" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-container">
+            <div class="left-slide">
+                <div style="background-color: rgb(36, 248, 139);">
+                    <h1>Green life</h1>
+                    <p>to evleve into care</p>
+                </div>
+                <div style="background-color: rgb(254, 160, 0);">
+                    <h1>Yellow Luck</h1>
+                    <p>Shinning the clouds</p>
+                </div>
+                <div style="background-color: rgb(231, 58, 95);">
+                    <h1>Redness Luck</h1>
+                    <p>in the wilderness</p>
+                </div>
+                <div style="background-color: rgb(176, 136, 240);">
+                    <h1>Lavada Love</h1>
+                    <p>in the sunset</p>
+                </div>
+            </div>
+            <div class="right-slide">
+                <div style="background-image: url(./img/photo-1.jpg);"></div>
+                <div style="background-image: url(./img/photo-2.jpg);"></div>
+                <div style="background-image: url(./img/photo-3.jpg);"></div>
+                <div style="background-image: url(./img/photo-4.jpg);"></div>
+            </div>
+            <div class="action-buttons">
+                <button class="down-button">
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+                <button class="up-button">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+        <div class="last-container">
+          <div class="info">
+              <br>
+              <br>
+              <h1>I am <span>Customer</span></h1>
+              <h1>And I choose to buy the freshest fruit</h1>
+              <p>Welcome to the Traidung fruits shop Where I trust the most<br> There are many different kinds of fruit here that you need</p>
+          </div>
+          <div class="img-box">
+              <img src="./img/back1.png" class="back-img">
+              <img src="./img/11.png" class="man-img">
+          </div>
+       </div>
+    </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="fab fa-facebook"></i></i></a><a href="#"><i class="fab fa-github"></i></a><a href="#"><i class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Company Name © 2018</p>
+            </div>
+        </footer>
+     </div>
+     
+    <script src="./js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
